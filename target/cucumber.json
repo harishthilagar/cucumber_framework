@@ -1,0 +1,171 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-27T05:01:02.213Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5610220800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberframework.steps.MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Test the add address feature",
+        "description": "",
+        "id": "validate-the-deleting-address-feature-for-web-application;test-the-add-address-feature;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 931324400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberframework.steps.MasterHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 409432100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The tester click the signin link",
+            "match": {
+              "location": "cucumberframework.steps.TestAddressSteps.theTesterClickTheSigninLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 880546900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "tester enters the valid usernameharithilagar99@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harithilagar99@gmail.com",
+                  "offset": 32
+                }
+              ],
+              "location": "cucumberframework.steps.TestAddressSteps.testerEntersTheValidUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343592700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "tester enters the valid passwordhari5678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hari5678",
+                  "offset": 32
+                }
+              ],
+              "location": "cucumberframework.steps.TestAddressSteps.testerEntersTheValidPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1549699800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the tester clickon the login button",
+            "match": {
+              "location": "cucumberframework.steps.TestAddressSteps.theTesterClickonTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1029800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the tester should be logged in successfully",
+            "match": {
+              "location": "cucumberframework.steps.TestAddressSteps.theTesterShouldBeLoggedInSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159092200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The tester click the address button",
+            "match": {
+              "location": "cucumberframework.steps.TestAddressSteps.theTesterClickTheAddressButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34935806400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "delete the addresses in page",
+            "match": {
+              "location": "cucumberframework.steps.TestAddressSteps.deleteTheAddressesInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2017100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the address should be deleted successfully",
+            "match": {
+              "location": "cucumberframework.steps.TestAddressSteps.theAddressShouldBeDeletedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Delete"
+          },
+          {
+            "name": "@Delete1"
+          }
+        ]
+      }
+    ],
+    "name": "validate the deleting address feature for web application",
+    "description": "\t\t\t\t Test the delete address",
+    "id": "validate-the-deleting-address-feature-for-web-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/cucumberframework/featurefiles/DeleteAddress.feature",
+    "tags": [
+      {
+        "name": "@Delete",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
